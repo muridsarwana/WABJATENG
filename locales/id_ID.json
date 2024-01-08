@@ -1,6 +1,7 @@
 {
-    "intro": "Selamat datang di Layanan PPID Provinsi Jawa Tengah, ada yang bisa saya bantu?",
+    "intro": "*Selamat datang di Layanan PPID Dinas Pendidikan dan Kebudayaan Provinsi Jawa Tengah*, jam operasional pada 07.00 - 15.30 untuk hari Senin - Kamis dan 07.00 - 14.00 untuk hari Jumat, alamat kami di Jl. Pemuda No. 134 Semarang. ada yang bisa kami bantu?",
     "template.menu": "Ketik angka *{{number}}* : untuk *{{menu}}*",
     "menu.daftarProduk": "🧰 Daftar Produk",
     "menu.alamatKantor": "Alamat Kantor",
+    "intro.menu": "*{{menu}}*"
 }

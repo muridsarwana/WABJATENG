@@ -4,7 +4,7 @@ const f = require("../utils/Formatter");
 module.exports = class BotController extends Controller {
 
 
-    async introduction(request) {
+   /*  async introduction(request) {
       return Response.menu.fromArrayOfString(
         [
           f("menu.daftarProduk"),
@@ -13,6 +13,12 @@ module.exports = class BotController extends Controller {
         f("intro"),
         f("template.menu")
       );
+    } */
+
+    async introduction(request){
+      return this.reply(
+        f("intro")
+      )
     }
 
     async product(request) {
