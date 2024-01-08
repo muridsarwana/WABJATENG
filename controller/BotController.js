@@ -10,7 +10,7 @@ module.exports = class BotController extends Controller {
           f("menu.daftarProduk"),
           f("menu.alamatKantor")
         ],
-        f("intro", [request.name]),
+        f("intro"),
         f("template.menu")
       );
     }
@@ -21,6 +21,10 @@ module.exports = class BotController extends Controller {
 
     async alamatKantor(request) {
       return this.reply("Alamat kantor kami ada di Jakarta")
+    }
+
+    async ppdb(request){
+      return this.reply("Untuk Info Seputar PPDB, anda bisa mengunjungi situs <website_ppdb>")
     }
 
 }

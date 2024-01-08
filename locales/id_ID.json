@@ -1,6 +1,6 @@
 {
-    "intro": "Selamat datang",
+    "intro": "Selamat datang di Layanan PPID Provinsi Jawa Tengah, ada yang bisa saya bantu?",
     "template.menu": "Ketik angka *{{number}}* : untuk *{{menu}}*",
     "menu.daftarProduk": "🧰 Daftar Produk",
-    "menu.alamatKantor": "Alamat Kantor"
+    "menu.alamatKantor": "Alamat Kantor",
 }
